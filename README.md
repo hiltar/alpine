@@ -97,6 +97,21 @@ rc-update add chronyd default
 ufw default deny incoming
 ufw default allow outgoing
 ufw enable
+
+# Network, DHCP
+nano /etc/network/interfaces
+
+auto lo
+iface lo inet loopback
+#iface lo inet6 loopback
+
+#auto eth0
+#iface eth0 inet dhcp
+#iface eth0 inet6 auto
+
+#auto eth1
+#iface eth1 inet dhcp
+#iface eth1 inet6 auto
 ```
 
 # User in GNOME environment
