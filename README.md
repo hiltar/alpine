@@ -121,4 +121,13 @@ doas dmesg | grep -i microcode     # should show "Updated early"
 cat /sys/power/mem_sleep           # want [deep]  (BIOS "Sleep State: Linux")
 sensors
 doas tlp-stat -b
+
+# GNOME configurations
+dconf load /org/gnome/ < gnome_settings.dconf
 ```
+
+# GNOME extensions
+https://extensions.gnome.org/extension/615/appindicator-support/  
+https://extensions.gnome.org/extension/1160/dash-to-panel/  
+https://extensions.gnome.org/extension/3628/arcmenu/  
+https://extensions.gnome.org/extension/5461/osd-volume-number/  
