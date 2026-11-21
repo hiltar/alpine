@@ -150,3 +150,9 @@ https://extensions.gnome.org/extension/615/appindicator-support/
 https://extensions.gnome.org/extension/1160/dash-to-panel/  
 https://extensions.gnome.org/extension/3628/arcmenu/  
 https://extensions.gnome.org/extension/5461/osd-volume-number/  
+
+# Cleanup after setup
+```
+doas apk del gnome-user-share apache2 apache2-webdav apache2-openrc mod_dnssd epiphany yelp yelp-xsl gnome-user-docs gnome-tour gnome-initial-setup
+doas rm -f /etc/wpa_supplicant/wpa_supplicant.conf
+```
