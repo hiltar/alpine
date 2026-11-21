@@ -55,7 +55,7 @@ apk add tlp tlp-rdw mesa-vulkan-intel intel-media-driver libva-utils mesa-utils
 # --- Terminal / system tools ---
 apk add curl wget nano bash bash-completion git tree file lsof rsync unzip zip \
         man-db man-pages bind-tools ethtool iw pciutils usbutils lm-sensors smartmontools \
-        nvme-cli powertop util-linux util-linux-misc lsblk mount umount doas-sudo-shim fastfetch
+        nvme-cli powertop util-linux util-linux-misc lsblk mount umount doas-sudo-shim fastfetch alsa-utils
 ```
 
 ## Optional packages
@@ -112,6 +112,10 @@ iface lo inet loopback
 #auto eth1
 #iface eth1 inet dhcp
 #iface eth1 inet6 auto
+
+# Audio
+alsactl store
+rc-update add alsa default
 ```
 
 # User in GNOME environment
