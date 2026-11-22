@@ -92,6 +92,7 @@ rc-update add bluetooth default
 rc-update add ufw default
 rc-update add tlp default
 rc-update add chronyd default
+rc-update add apk-polkit-server default
 
 # Firewall
 ufw default deny incoming
