@@ -100,6 +100,8 @@ ufw enable
 
 # Network, DHCP
 nano /etc/network/interfaces
+apk add ethtool
+ethtool eth0 -s eth0 wol d
 
 auto lo
 iface lo inet loopback
