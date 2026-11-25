@@ -85,6 +85,7 @@ flatpak install flathub com.mikrotik.WinBox
 # rc services
 rc-update add elogind default
 rc-update add gdm default
+rc-update add sddm default
 rc-update add dbus default
 rc-update add cgroups default
 rc-update add networkmanager default
@@ -100,9 +101,10 @@ ufw default allow outgoing
 ufw enable
 
 # Network, DHCP
-nano /etc/network/interfaces
 apk add ethtool
 ethtool eth0 -s eth0 wol d
+
+nano /etc/network/interfaces
 
 auto lo
 iface lo inet loopback
@@ -119,6 +121,15 @@ iface lo inet loopback
 # Audio
 alsactl store
 rc-update add alsa default
+```
+
+# Other configurations
+```
+doas adduser alice audio
+doas adduser alice wheel
+doas adduser alice video
+doas adduser alice input
+doas adduser alice flatpak
 ```
 
 # User in GNOME environment
