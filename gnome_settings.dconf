@@ -1,34 +1,10 @@
-[2048]
-cols=3
-rows=3
-window-height=600
-window-maximized=false
-window-width=600
-
-[Chess]
-height=782
-last-played-as='white'
-maximized=false
-width=1093
-
 [Console]
 last-window-maximised=false
-last-window-size=(732, 528)
-
-[Ptyxis]
-default-profile-uuid='a61e9a46fa6a12562c43f4e56a0b5201'
-profile-uuids=['a61e9a46fa6a12562c43f4e56a0b5201']
-window-size=(uint32 80, uint32 24)
+last-window-size=(956, 528)
 
 [Robots]
 window-height=566
 window-width=720
-
-[Tetravex]
-saved-game=@m(yyda(yyyyyyyy)ua(yyyyu)) nothing
-window-height=407
-window-is-maximized=false
-window-width=600
 
 [Weather]
 locations=[<(uint32 2, <('Tampere', 'EFTP', true, [(1.0719230547509482, 0.41160680944423184)], [(1.0733774899765127, 0.41451569734865329)])>)>]
@@ -60,7 +36,7 @@ window-maximized=true
 window-size=(768, 600)
 
 [control-center]
-last-panel='bluetooth'
+last-panel='display'
 window-state=(1130, 752, false)
 
 [desktop/app-folders]
@@ -90,9 +66,9 @@ translate=true
 [desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
-picture-uri-dark='file:///usr/share/backgrounds/gnome/blobs-d.svg'
-primary-color='#3465a4'
+picture-uri='file:///usr/share/backgrounds/gnome/amber-l.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/amber-d.jxl'
+primary-color='#ff7800'
 secondary-color='#000000'
 
 [desktop/break-reminders/eyesight]
@@ -110,6 +86,7 @@ sources=[('xkb', 'fi')]
 xkb-options=@as []
 
 [desktop/interface]
+accent-color='slate'
 clock-format='24h'
 color-scheme='prefer-dark'
 cursor-theme='Bibata-Modern-Ice'
@@ -200,8 +177,8 @@ report-technical-problems=true
 [desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/chimera/bg-l.svg'
-primary-color='#3465a4'
+picture-uri='file:///usr/share/backgrounds/gnome/amber-l.jxl'
+primary-color='#ff7800'
 secondary-color='#000000'
 
 [desktop/search-providers]
@@ -339,6 +316,9 @@ last-folder-path='/mnt/pny/retro/games/switch'
 [portal/filechooser/org.ryujinx.Ryujinx]
 last-folder-path='/mnt/pny/retro/games/switch'
 
+[portal/filechooser/org.telegram.desktop]
+last-folder-path='/home/tarmo/Downloads'
+
 [settings-daemon/plugins/color]
 night-light-schedule-automatic=false
 
@@ -386,11 +366,11 @@ menu-separator-color='rgb(63,62,64)'
 multi-monitor=false
 override-menu-theme=true
 pinned-app-list=['Files', '', 'org.gnome.Nautilus.desktop', 'Terminal', '', 'org.gnome.Terminal.desktop', 'Steam', '', 'com.valvesoftware.Steam.desktop', 'yuzu', '', 'org.yuzu_emu.yuzu.desktop', 'Firefox ESR Web Browser', '', 'firefox-esr.desktop', 'Heroic Games Launcher', '', 'com.heroicgameslauncher.hgl.desktop', 'Ryujinx', '', 'org.ryujinx.Ryujinx.desktop', 'Thunderbird', '', 'thunderbird.desktop', 'Calculator', '', 'org.gnome.Calculator.desktop']
-pinned-apps=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Calculator.desktop'}, {'id': 'org.gnome.Software.desktop'}, {'id': 'com.brave.Browser.desktop'}, {'id': 'org.telegram.desktop.desktop'}, {'id': 'org.gnome.Console.desktop'}, {'id': 'org.nmap.Zenmap.desktop'}]
+pinned-apps=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Calculator.desktop'}, {'id': 'org.gnome.Software.desktop'}, {'id': 'com.brave.Browser.desktop'}, {'id': 'org.telegram.desktop.desktop'}, {'id': 'org.gnome.Console.desktop'}, {'id': 'org.nmap.Zenmap.desktop'}, {'id': 'com.mikrotik.WinBox.desktop'}]
 prefs-visible-page=0
-recently-installed-apps=['com.usebottles.bottles.desktop', 'org.virt_manager.virt-manager.desktop', 'org.gnome.Terminal.desktop']
+recently-installed-apps=['com.usebottles.bottles.desktop', 'org.virt_manager.virt-manager.desktop', 'org.gnome.Terminal.desktop', 'debian.desktop', 'debianbox.desktop']
 search-entry-border-radius=(true, 25)
-update-notifier-project-version=71
+update-notifier-project-version=74
 
 [shell/extensions/blur-my-shell]
 settings-version=2
@@ -423,7 +403,7 @@ available-monitors=[1, 0]
 dot-position='BOTTOM'
 dot-style-focused='METRO'
 dot-style-unfocused='DASHES'
-extension-version=73
+extension-version=74
 hide-overview-on-startup=true
 hotkeys-overlay-combo='TEMPORARILY'
 leftbox-padding=-1
@@ -451,14 +431,14 @@ locations=[<(uint32 2, <('Tampere', 'EFTP', true, [(1.0719230547509482, 0.411606
 locations=@av []
 
 [software]
-check-timestamp=int64 1795278640
+check-timestamp=int64 1795472898
 first-run=false
-flatpak-purge-timestamp=int64 1795283412
+flatpak-purge-timestamp=int64 1795460922
 install-timestamp=int64 1779127227
 online-updates-timestamp=int64 1748011069
 packagekit-historical-updates-timestamp=uint64 1741521049
 security-timestamp=int64 1779126634223381
-update-notification-timestamp=int64 1748098679
+update-notification-timestamp=int64 1795635578
 
 [solitaire/window-state]
 fullscreen=false
